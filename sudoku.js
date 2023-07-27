@@ -99,57 +99,6 @@ function selectTile() {
     }
 }
 
-// var mymodal = document.createElement("div");
-// var content = document.createElement("div");
-// var content1 = document.createElement("div");
-// var retake= document.createElement("div");
-// var newgame = document.createElement("div");
-// mymodal.classList.add('modal');
-// content.classList.add('modal-content');
-// content1.classList.add('modal-content');
-// retake.classList.add('retake');
-// newgame.classList.add('newgame');
-// mymodal.append(content);
-// mymodal.append(content1);
-// mymodal.append(retake);
-// mymodal.append(newgame);
-// document.getElementsByClassName('content').innerHTML = '<p> Game over </p>'
-// document.getElementsByClassName('content1').innerHTML = '<p> You have made 5 mistake and lost this game </p>'
-// document.getElementsByClassName('retake').innerHTML = '<p> Retake </p>'
-// document.getElementsByClassName('newgame').innerHTML = '<p> New game </p>'
-
-
-
-// document.getElementsByClassName('retake').onclick = function(){
-//     location.reload();
-// };
-// document.getElementsByClassName('newgame').onclick = function(){
-//     location.reload();
-// };
-// const examples = document.querySelector('.modal');
-// if (examples) {
-//         examples.classList.add('open');
-//     }
-//  else {
-//     console.error("Phần tử không tồn tại hoặc không thể tìm thấy.");
-// }
-
-// document.addEventListener('DOMContentLoaded', function() {
-//     function checkerrors (){
-//         if ( errors === 3){
-//             document.getElementsByClassName("modal")[0].classList.add('open'); 
-//         }
-//     };
-//     document.getElementsByClassName('retake')[0].addEventListener('click', () => {
-//         document.getElementsByClassName("modal")[0].classList.remove('open');
-//         location.reload();
-//     });
-//     document.getElementsByClassName('newgame')[0].addEventListener('click', () => {
-//         document.getElementsByClassName("modal")[0].classList.remove('open');
-    
-//     })
-//     console.log("Toàn bộ DOM đã tải xong và đoạn mã JavaScript được thực thi.");
-//   });
 
 function checkerrors (){
     if ( errors === 3){
